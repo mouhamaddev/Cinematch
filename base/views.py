@@ -49,7 +49,7 @@ def CommentAnalyzer(request, my_comment):
         if sentiment > 0:
             return 5
         elif sentiment == 0:
-            return 3
+            return 3.5
         else:
             return 1
 
