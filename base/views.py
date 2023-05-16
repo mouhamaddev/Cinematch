@@ -33,7 +33,7 @@ def MainView(request, movie):
 
     response_data = {'movies': similar_movies}
     return JsonResponse(response_data)
-
+#comment analyzer
 def CommentAnalyzer(request, my_comment):
     stop_words = set(stopwords.words('english'))
     lemmatizer = WordNetLemmatizer()
@@ -49,7 +49,7 @@ def CommentAnalyzer(request, my_comment):
         if sentiment > 0:
             return 5
         elif sentiment == 0:
-            return 3.5
+            return 3
         else:
             return 1
 
