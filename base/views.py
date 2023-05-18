@@ -33,7 +33,7 @@ def MainView(request, movie):
 
     response_data = {'movies': similar_movies}
     return JsonResponse(response_data)
-#comment analyzer
+
 def CommentAnalyzer(request, my_comment):
     stop_words = set(stopwords.words('english'))
     lemmatizer = WordNetLemmatizer()
