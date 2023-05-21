@@ -14,7 +14,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from textblob import TextBlob
 
-
+#main
 def MainView(request, movie):
     movies = pd.read_csv('ml-latest-small/movies.csv')
     ratings = pd.read_csv('ml-latest-small/ratings.csv')
