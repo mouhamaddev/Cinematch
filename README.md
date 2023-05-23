@@ -1,3 +1,3 @@
 # Cinematch
 
-movie recommender app using react native and machine learning
+Movie recommender app using react native and machine learning
