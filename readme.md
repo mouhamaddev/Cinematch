@@ -1,6 +1,6 @@
 markdown
 
-# Movie Recommendation System App Documentation
+# 🎥 Movie Recommendation System App Documentation
 
 ## Overview
 
