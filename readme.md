@@ -32,23 +32,24 @@ During the development of the Movie Recommendation System App, the following key
 
 1. Install the required dependencies by running the following command:
 
+```
 pip install virtualenv
+```
 
-css
 
 
 2. Navigate to the project directory:
 
+```
 cd project
-
-arduino
+```
 
 
 3. Create a virtual environment:
 
+```
 virtualenv env
-
-r
+```
 
 
 4. Activate the virtual environment:
@@ -63,16 +64,16 @@ r
 
 5. Install the project dependencies:
 
+```
 pip install -r requirements.txt
-
-markdown
+```
 
 
 6. Start the Django development server:
 
+```
 python manage.py runserver
-
-markdown
+```
 
 
 ### React Native Setup:
@@ -81,10 +82,9 @@ markdown
 2. Navigate to the React Native project directory.
 3. Install the required dependencies by running the following command:
 
+```
 npm install
-
-javascript
-
+```
 
 4. Start the React Native development server:
 - For iOS:
