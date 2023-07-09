@@ -2,6 +2,7 @@ markdown
 
 # 🎥 Movie Recommendation System App Documentation
 
+## DEMO: https://www.youtube.com/watch?v=d6R1y2wVM8Y
 ## Overview
 
 The Movie Recommendation System App is a mobile application developed using React Native for the frontend and Python for the machine learning backend. The app provides personalized movie recommendations based on user preferences and historical data. It utilizes various machine learning algorithms to analyze user behavior and generate accurate recommendations. The backend is built with Django, and it is hosted on AWS. Docker is used to containerize the application for easy deployment and scalability. The documentation provides an overview of the app's functionalities, the knowledge gained during development, and instructions on how to set up and use the app.
